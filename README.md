@@ -179,8 +179,8 @@ Before you begin, ensure you have the following installed:
    -- Use the database
    USE pmms_db;
    
-   -- Run the SQL scripts to create tables
-   -- (SQL scripts should be provided in /database folder)
+   -- Create required tables for the system
+   -- (Database schema documentation will be added in future updates)
    ```
 
 3. **Configure Database Connection**
@@ -382,30 +382,15 @@ After installation:
 
 ## 📸 Screenshots
 
-### Landing Page
-The welcoming homepage that introduces users to PMMS features.
+*Screenshots will be added in future updates to showcase the user interface and key features of the system.*
 
-![Landing Page](./images/screenshot-landing.png) <!-- Add actual screenshot -->
+### Key Interfaces
 
-### Student Dashboard
-Clean, intuitive interface for students to track their academic progress.
-
-![Student Dashboard](./images/screenshot-student-dashboard.png) <!-- Add actual screenshot -->
-
-### Marks View
-Detailed breakdown of marks across different modules and assessments.
-
-![Marks View](./images/screenshot-marks-view.png) <!-- Add actual screenshot -->
-
-### Lecturer Dashboard
-Comprehensive tools for lecturers to manage marks and appeals.
-
-![Lecturer Dashboard](./images/screenshot-lecturer-dashboard.png) <!-- Add actual screenshot -->
-
-### Admin Panel
-Powerful administrative interface for system management.
-
-![Admin Panel](./images/screenshot-admin-panel.png) <!-- Add actual screenshot -->
+- **Landing Page**: Welcoming homepage introducing PMMS features
+- **Student Dashboard**: Clean, intuitive interface for tracking academic progress
+- **Marks View**: Detailed breakdown of marks across modules and assessments
+- **Lecturer Dashboard**: Comprehensive tools for managing marks and appeals
+- **Admin Panel**: Powerful administrative interface for system management
 
 ---
 
@@ -551,9 +536,8 @@ Have an idea to improve PMMS? We'd love to hear it!
 
 - [Installation Guide](#installation)
 - [Usage Guide](#usage-guide)
-- [API Documentation](docs/API.md) *(Coming Soon)*
-- [Developer Guide](docs/DEVELOPER.md) *(Coming Soon)*
-- [FAQ](docs/FAQ.md) *(Coming Soon)*
+- [Contributing Guidelines](#contributing)
+- [Contact & Support](#contact--support)
 
 ---
 
