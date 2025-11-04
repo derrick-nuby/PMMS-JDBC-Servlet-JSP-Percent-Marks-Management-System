@@ -172,16 +172,20 @@ Before you begin, ensure you have the following installed:
    ```
 
 2. **Database Setup**
+   
+   Create a new database for PMMS:
    ```sql
-   -- Create database
    CREATE DATABASE pmms_db;
-   
-   -- Use the database
    USE pmms_db;
-   
-   -- Create required tables for the system
-   -- (Database schema documentation will be added in future updates)
    ```
+   
+   **Database Schema**: The system requires tables for:
+   - Users (students, lecturers, administrators)
+   - Academic records (marks, grades, transcripts)
+   - Subjects and faculties
+   - Appeals and feedback
+   
+   *Note: Detailed database schema and SQL scripts will be provided in future updates. For now, the schema should be created based on application requirements.*
 
 3. **Configure Database Connection**
    - Update the database connection parameters in your servlet configuration
@@ -457,16 +461,17 @@ We welcome contributions to improve PMMS! Here's how you can help:
 
 ## 📄 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is open source. Please check with the repository owner for specific licensing terms.
 
-### MIT License Summary
+### Usage Rights
 
-- ✅ Commercial use
-- ✅ Modification
-- ✅ Distribution
-- ✅ Private use
-- ❌ Liability
-- ❌ Warranty
+For information about:
+- Commercial use
+- Modification rights
+- Distribution terms
+- Private use
+
+Please contact the project maintainer or open an issue for clarification.
 
 ---
 
@@ -480,9 +485,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ### Support Channels
 
-- **Students**: [support-students@percentsystem.com](mailto:support-students@percentsystem.com)
-- **Lecturers**: [support-lecturers@percentsystem.com](mailto:support-lecturers@percentsystem.com)
+- **General Support**: Contact through GitHub Issues
 - **Technical Issues**: [GitHub Issues](https://github.com/derrick-nuby/PMMS-JDBC-Servlet-JSP-Percent-Marks-Management-System/issues)
+- **Feature Requests**: Open an issue with "enhancement" label
 
 ### Reporting Issues
 
